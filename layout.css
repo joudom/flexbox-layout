@@ -1,0 +1,41 @@
+h1 {
+    background-color: yellowgreen;
+}
+
+body {
+    border: 5px solid black;
+    width: 800px;
+}
+
+.container {
+    display: flex;
+    column-gap: 3%;
+    height: 500px;
+}
+
+.container1 {
+    box-sizing: content-box;
+    padding: 1%;
+    font-size: x-large;
+    background-color: orange;
+    border: 5px solid black;
+    width: 300px;
+    position: relative;
+    left: 1%;
+}
+
+.container2 {
+    box-sizing: content-box;
+    padding: 1%;
+    font-size: x-large;
+    background-color: aqua;
+    border: 5px solid black;
+    width: 100%;
+    position: relative;
+    right: 1%;
+}
+
+footer {
+    font-size:xx-large;
+    background-color: yellow;
+}
